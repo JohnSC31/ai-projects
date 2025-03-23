@@ -1,0 +1,8 @@
+name: tarea_01
+channels:
+  - defaults
+dependencies:
+  - matplotlib
+  - numpy
+  - pandas
+  - seaborn
