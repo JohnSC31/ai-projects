@@ -1,0 +1,9 @@
+name: proyecto_1
+channels:
+  - defaults
+dependencies:
+  - matplotlib
+  - numpy
+  - pandas
+  - seaborn
+  - scikit-learn
