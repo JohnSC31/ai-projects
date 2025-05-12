@@ -56,11 +56,11 @@ class SpokenDigitDataset(Dataset):
         # Extraer log-Mel espectrograma
         mel_spec = librosa.feature.melspectrogram(y=y, sr=sr, n_mels=self.n_mels)
         log_mel_spec = librosa.power_to_db(mel_spec, ref=np.max)
+        log_mel_spec = log_mel_spec.astype(np.float32)
+        log_mel_spec = cv2.normalize(log_mel_spec, None, 0, 255, cv2.NORM_MINMAX)
 
         # 4. Aplicar filtro bilateral (si se solicita)
         if self.bilateral:
-            log_mel_spec = log_mel_spec.astype(np.float32)
-            log_mel_spec = cv2.normalize(log_mel_spec, None, 0, 255, cv2.NORM_MINMAX)
             log_mel_spec = cv2.bilateralFilter(log_mel_spec, d=9, sigmaColor=75, sigmaSpace=75)
             log_mel_spec = cv2.normalize(log_mel_spec, None, 0, 1, cv2.NORM_MINMAX)
 
@@ -73,7 +73,7 @@ class SpokenDigitDataset(Dataset):
         # Convertir a tensor de forma (1, n_mels, tiempo)
         log_mel_tensor = torch.tensor(resized_log_mel, dtype=torch.float32).unsqueeze(0)
 
-        return log_mel_tensor, label
+        return log_mel_tensor, torch.tensor(label, dtype=torch.long)
 
     def __apply_spec_augment(self, spec, freq_mask_param=20, time_mask_param=4, num_freq_masks=1, num_time_masks=1):
 
