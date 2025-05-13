@@ -1,0 +1,10 @@
+{"time":"2025-05-12T21:02:39.5959558-06:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"c:\\Users\\josts\\OneDrive\\Documentos\\University\\Semestre IX\\Inteligencia Artificial\\ai-projects\\proyecto-2\\wandb\\run-20250512_210238-zrli1uya\\logs\\debug-core.log"}
+{"time":"2025-05-12T21:02:39.9247776-06:00","level":"INFO","msg":"created new stream","id":"zrli1uya"}
+{"time":"2025-05-12T21:02:39.9247776-06:00","level":"INFO","msg":"stream: started","id":"zrli1uya"}
+{"time":"2025-05-12T21:02:39.9247776-06:00","level":"INFO","msg":"handler: started","stream_id":"zrli1uya"}
+{"time":"2025-05-12T21:02:39.927247-06:00","level":"INFO","msg":"sender: started","stream_id":"zrli1uya"}
+{"time":"2025-05-12T21:02:39.927247-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"zrli1uya"}
+{"time":"2025-05-12T21:02:40.1095331-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-12T21:02:40.6708911-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T21:02:40.8023758-06:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T21:02:40.8195472-06:00","level":"INFO","msg":"Pausing system monitor"}

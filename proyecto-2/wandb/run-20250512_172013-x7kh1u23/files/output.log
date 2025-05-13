@@ -1,0 +1,13 @@
+Usando dispositivo: cpu
+c:\Users\josts\anaconda3\envs\proyecto2\lib\site-packages\torch\optim\lr_scheduler.py:198: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+Epoch 1: Loss=1.9064, Validation Loss= 2.35080623626709  (False), Accuracy=38.45%, Validation Accuracy=12.022222222222222%
+c:\Users\josts\anaconda3\envs\proyecto2\lib\site-packages\torch\optim\lr_scheduler.py:198: UserWarning: The epoch parameter in `scheduler.step()` was not necessary and is being deprecated where possible. Please use `scheduler.step()` to step the scheduler. During the deprecation, if epoch is different from None, the closed form is used instead of the new chainable form, where available. Please open an issue if you are unable to replicate your use case: https://github.com/pytorch/pytorch/issues/new/choose.
+  warnings.warn(EPOCH_DEPRECATION_WARNING, UserWarning)
+Epoch 2: Loss=1.2924, Validation Loss= 1.553389310836792  (False), Accuracy=61.53%, Validation Accuracy=52.13333333333333%
+Epoch 3: Loss=0.9645, Validation Loss= 1.0796468257904053  (False), Accuracy=72.65%, Validation Accuracy=69.82222222222222%
+Epoch 4: Loss=0.7409, Validation Loss= 0.8175604939460754  (False), Accuracy=80.39%, Validation Accuracy=77.0%
+Etiqueta: 0
+Etiqueta: 0
+Etiqueta: 0
+Etiqueta: 0
