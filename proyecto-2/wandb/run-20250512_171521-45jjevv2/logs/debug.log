@@ -1,0 +1,25 @@
+2025-05-12 17:15:21,189 INFO    MainThread:14168 [wandb_init.py:setup_run_log_directory():724] Logging user logs to c:\Users\josts\OneDrive\Documentos\University\Semestre IX\Inteligencia Artificial\ai-projects\proyecto-2\wandb\run-20250512_171521-45jjevv2\logs\debug.log
+2025-05-12 17:15:21,190 INFO    MainThread:14168 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to c:\Users\josts\OneDrive\Documentos\University\Semestre IX\Inteligencia Artificial\ai-projects\proyecto-2\wandb\run-20250512_171521-45jjevv2\logs\debug-internal.log
+2025-05-12 17:15:21,190 INFO    MainThread:14168 [wandb_init.py:init():852] calling init triggers
+2025-05-12 17:15:21,190 INFO    MainThread:14168 [wandb_init.py:init():857] wandb.init called with sweep_config: {}
+config: {'epochs': 15, 'batch_size': 32, 'learning_rate': 0.0001, 'architecture': 'LeNet5Audio', 'input_size': '1x224x224', '_wandb': {}}
+2025-05-12 17:15:22,428 INFO    MainThread:14168 [wandb_init.py:init():893] starting backend
+2025-05-12 17:15:22,428 INFO    MainThread:14168 [wandb_init.py:init():897] sending inform_init request
+2025-05-12 17:15:22,431 INFO    MainThread:14168 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-05-12 17:15:22,431 INFO    MainThread:14168 [wandb_init.py:init():907] backend started and connected
+2025-05-12 17:15:22,434 INFO    MainThread:14168 [wandb_run.py:_label_probe_notebook():1369] probe notebook
+2025-05-12 17:15:22,458 INFO    MainThread:14168 [wandb_init.py:init():1002] updated telemetry
+2025-05-12 17:15:22,517 INFO    MainThread:14168 [wandb_init.py:init():1026] communicating run to backend with 90.0 second timeout
+2025-05-12 17:15:22,940 INFO    MainThread:14168 [wandb_init.py:init():1101] starting run threads in backend
+2025-05-12 17:15:23,484 INFO    MainThread:14168 [wandb_run.py:_console_start():2566] atexit reg
+2025-05-12 17:15:23,485 INFO    MainThread:14168 [wandb_run.py:_redirect():2414] redirect: wrap_raw
+2025-05-12 17:15:23,486 INFO    MainThread:14168 [wandb_run.py:_redirect():2483] Wrapping output streams.
+2025-05-12 17:15:23,486 INFO    MainThread:14168 [wandb_run.py:_redirect():2506] Redirects installed.
+2025-05-12 17:15:23,487 INFO    MainThread:14168 [wandb_init.py:init():1147] run started, returning control to user process
+2025-05-12 17:16:07,656 INFO    MainThread:14168 [wandb_run.py:_finish():2314] finishing run jostsace05-instituto-tecnol-gico-de-costa-rica/Audio-mnist/45jjevv2
+2025-05-12 17:16:07,658 INFO    MainThread:14168 [wandb_run.py:_atexit_cleanup():2531] got exitcode: 0
+2025-05-12 17:16:07,658 INFO    MainThread:14168 [wandb_run.py:_restore():2513] restore
+2025-05-12 17:16:07,658 INFO    MainThread:14168 [wandb_run.py:_restore():2519] restore done
+2025-05-12 17:16:08,787 INFO    MainThread:14168 [wandb_run.py:_footer_history_summary_info():4160] rendering history
+2025-05-12 17:16:08,787 INFO    MainThread:14168 [wandb_run.py:_footer_history_summary_info():4192] rendering summary
+2025-05-12 17:16:08,787 INFO    MainThread:14168 [wandb_run.py:_footer_sync_info():4121] logging synced files

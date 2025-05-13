@@ -1,0 +1,31 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.10.16",
+  "startedAt": "2025-05-12T23:15:22.432328Z",
+  "program": "c:\\Users\\josts\\OneDrive\\Documentos\\University\\Semestre IX\\Inteligencia Artificial\\ai-projects\\proyecto-2\\main.ipynb",
+  "codePath": "proyecto-2\\main.ipynb",
+  "git": {
+    "remote": "https://github.com/JohnSC31/ai-projects.git",
+    "commit": "c1f53736663b93d7e976d6adbc3b1b506762cb0d"
+  },
+  "email": "jostsace05@gmail.com",
+  "root": "c:\\Users\\josts\\OneDrive\\Documentos\\University\\Semestre IX\\Inteligencia Artificial\\ai-projects\\proyecto-2",
+  "host": "LAPTOP-KIRGP1C6",
+  "executable": "c:\\Users\\josts\\anaconda3\\envs\\proyecto2\\python.exe",
+  "codePathLocal": "main.ipynb",
+  "cpu_count": 6,
+  "cpu_count_logical": 12,
+  "disk": {
+    "/": {
+      "total": "511020363776",
+      "used": "359295918080"
+    }
+  },
+  "memory": {
+    "total": "7866372096"
+  },
+  "cpu": {
+    "count": 6,
+    "countLogical": 12
+  }
+}
