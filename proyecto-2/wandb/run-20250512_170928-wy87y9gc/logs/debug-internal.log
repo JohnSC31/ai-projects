@@ -1,0 +1,23 @@
+{"time":"2025-05-12T17:09:28.2777639-06:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"c:\\Users\\josts\\OneDrive\\Documentos\\University\\Semestre IX\\Inteligencia Artificial\\ai-projects\\proyecto-2\\wandb\\run-20250512_170928-wy87y9gc\\logs\\debug-core.log"}
+{"time":"2025-05-12T17:09:28.993654-06:00","level":"INFO","msg":"created new stream","id":"wy87y9gc"}
+{"time":"2025-05-12T17:09:28.9941999-06:00","level":"INFO","msg":"stream: started","id":"wy87y9gc"}
+{"time":"2025-05-12T17:09:28.9941999-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"wy87y9gc"}
+{"time":"2025-05-12T17:09:28.9941999-06:00","level":"INFO","msg":"handler: started","stream_id":"wy87y9gc"}
+{"time":"2025-05-12T17:09:28.9941999-06:00","level":"INFO","msg":"sender: started","stream_id":"wy87y9gc"}
+{"time":"2025-05-12T17:09:29.374163-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-12T17:09:29.9043-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T17:09:34.5568109-06:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T17:15:19.2087693-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T17:15:19.2097906-06:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T17:15:19.250557-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T17:15:21.0719154-06:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T17:15:21.1740848-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T17:15:21.2011481-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-12T17:15:21.2011481-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-12T17:15:22.0262689-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-12T17:15:22.2068644-06:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading summary, console lines 2-5","runtime_seconds":0.1793731}],"total_operations":1}}
+{"time":"2025-05-12T17:15:22.4287019-06:00","level":"INFO","msg":"stream: closing","id":"wy87y9gc"}
+{"time":"2025-05-12T17:15:22.4292224-06:00","level":"INFO","msg":"sender: closed","stream_id":"wy87y9gc"}
+{"time":"2025-05-12T17:15:22.4297372-06:00","level":"INFO","msg":"handler: closed","stream_id":"wy87y9gc"}
+{"time":"2025-05-12T17:15:22.4297372-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":"wy87y9gc"}
+{"time":"2025-05-12T17:15:22.4297372-06:00","level":"INFO","msg":"stream: closed","id":"wy87y9gc"}
