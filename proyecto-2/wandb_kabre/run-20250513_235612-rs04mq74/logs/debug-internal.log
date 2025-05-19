@@ -1,0 +1,17 @@
+{"time":"2025-05-13T23:56:15.060821719-06:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/lnavarro/tec/iap2/wandb/run-20250513_235612-rs04mq74/logs/debug-core.log"}
+{"time":"2025-05-13T23:56:15.544422981-06:00","level":"INFO","msg":"created new stream","id":"rs04mq74"}
+{"time":"2025-05-13T23:56:15.544486617-06:00","level":"INFO","msg":"stream: started","id":"rs04mq74"}
+{"time":"2025-05-13T23:56:15.544602973-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"rs04mq74"}
+{"time":"2025-05-13T23:56:15.544705001-06:00","level":"INFO","msg":"sender: started","stream_id":"rs04mq74"}
+{"time":"2025-05-13T23:56:15.544778282-06:00","level":"INFO","msg":"handler: started","stream_id":"rs04mq74"}
+{"time":"2025-05-13T23:56:16.17782909-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-14T00:02:34.131636703-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-14T00:02:34.386527528-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-14T00:02:34.386596094-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-14T00:02:35.390846149-06:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-rs04mq74-conf_matrix_table","runtime_seconds":1.527499025}],"total_operations":1}}
+{"time":"2025-05-14T00:02:35.742394508-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-14T00:02:36.113291798-06:00","level":"INFO","msg":"stream: closing","id":"rs04mq74"}
+{"time":"2025-05-14T00:02:36.113356779-06:00","level":"INFO","msg":"handler: closed","stream_id":"rs04mq74"}
+{"time":"2025-05-14T00:02:36.113372603-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rs04mq74"}
+{"time":"2025-05-14T00:02:36.113472076-06:00","level":"INFO","msg":"sender: closed","stream_id":"rs04mq74"}
+{"time":"2025-05-14T00:02:36.195787275-06:00","level":"INFO","msg":"stream: closed","id":"rs04mq74"}

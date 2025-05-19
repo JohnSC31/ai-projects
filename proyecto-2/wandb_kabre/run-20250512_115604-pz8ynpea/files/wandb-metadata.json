@@ -1,0 +1,41 @@
+{
+  "os": "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "python": "CPython 3.11.11",
+  "startedAt": "2025-05-12T17:56:04.872405Z",
+  "program": "/home/todd/universidad/ia/ai-projects/proyecto-2/main.ipynb",
+  "codePath": "proyecto-2/main.ipynb",
+  "git": {
+    "remote": "git@github.com:JohnSC31/ai-projects.git",
+    "commit": "71a6440b182ddf5a20f234536324d47237ae2e40"
+  },
+  "email": "luiscatodd@gmail.com",
+  "root": "/home/todd/universidad/ia/ai-projects/proyecto-2",
+  "host": "TODDW11DESKTOP",
+  "executable": "/home/todd/.anaconda3/envs/proyecto2/bin/python",
+  "codePathLocal": "main.ipynb",
+  "cpu_count": 6,
+  "cpu_count_logical": 12,
+  "gpu": "NVIDIA GeForce GTX 960",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "1081101176832",
+      "used": "69268594688"
+    }
+  },
+  "memory": {
+    "total": "8303853568"
+  },
+  "cpu": {
+    "count": 6,
+    "countLogical": 12
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce GTX 960",
+      "memoryTotal": "2147483648",
+      "architecture": "Maxwell"
+    }
+  ],
+  "cudaVersion": "12.8"
+}

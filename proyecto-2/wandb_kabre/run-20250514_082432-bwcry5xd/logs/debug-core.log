@@ -1,0 +1,26 @@
+{"time":"2025-05-14T08:24:31.931730844-06:00","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmpiy65206x/port-1144300.txt","pid":1144300,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false}
+{"time":"2025-05-14T08:24:31.933472734-06:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":36633,"Zone":""}}
+{"time":"2025-05-14T08:24:31.933564464-06:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":1144300}
+{"time":"2025-05-14T08:24:32.058193588-06:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:49506"}
+{"time":"2025-05-14T08:24:32.70161488-06:00","level":"INFO","msg":"handleInformInit: received","streamId":"bwcry5xd","id":"127.0.0.1:49506"}
+{"time":"2025-05-14T08:24:33.280538834-06:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"bwcry5xd","id":"127.0.0.1:49506"}
+{"time":"2025-05-14T09:22:21.375511786-06:00","level":"INFO","msg":"handleInformFinish: finish message received","streamId":"bwcry5xd","id":"127.0.0.1:49506"}
+{"time":"2025-05-14T09:22:21.447519306-06:00","level":"INFO","msg":"handleInformFinish: stream closed","streamId":"bwcry5xd","id":"127.0.0.1:49506"}
+{"time":"2025-05-14T09:22:21.447536301-06:00","level":"INFO","msg":"handleInformInit: received","streamId":"ny2vwxwt","id":"127.0.0.1:49506"}
+{"time":"2025-05-14T09:22:22.084247721-06:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"ny2vwxwt","id":"127.0.0.1:49506"}
+{"time":"2025-05-14T11:15:05.460467178-06:00","level":"INFO","msg":"handleInformFinish: finish message received","streamId":"ny2vwxwt","id":"127.0.0.1:49506"}
+{"time":"2025-05-14T11:15:05.50843728-06:00","level":"INFO","msg":"handleInformFinish: stream closed","streamId":"ny2vwxwt","id":"127.0.0.1:49506"}
+{"time":"2025-05-14T11:15:05.508454884-06:00","level":"INFO","msg":"handleInformInit: received","streamId":"w5oihgd3","id":"127.0.0.1:49506"}
+{"time":"2025-05-14T11:15:06.700076878-06:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"w5oihgd3","id":"127.0.0.1:49506"}
+{"time":"2025-05-14T13:34:26.153498931-06:00","level":"INFO","msg":"handleInformFinish: finish message received","streamId":"w5oihgd3","id":"127.0.0.1:49506"}
+{"time":"2025-05-14T13:34:26.227638967-06:00","level":"INFO","msg":"handleInformFinish: stream closed","streamId":"w5oihgd3","id":"127.0.0.1:49506"}
+{"time":"2025-05-14T13:34:26.227659231-06:00","level":"INFO","msg":"handleInformInit: received","streamId":"2aq0rown","id":"127.0.0.1:49506"}
+{"time":"2025-05-14T13:34:27.194991799-06:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"2aq0rown","id":"127.0.0.1:49506"}
+{"time":"2025-05-14T15:35:40.147717727-06:00","level":"INFO","msg":"handleInformFinish: finish message received","streamId":"2aq0rown","id":"127.0.0.1:49506"}
+{"time":"2025-05-14T15:35:40.247550907-06:00","level":"INFO","msg":"handleInformFinish: stream closed","streamId":"2aq0rown","id":"127.0.0.1:49506"}
+{"time":"2025-05-14T15:35:40.247567369-06:00","level":"INFO","msg":"handleInformInit: received","streamId":"9xj9l474","id":"127.0.0.1:49506"}
+{"time":"2025-05-14T15:35:40.897770327-06:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"9xj9l474","id":"127.0.0.1:49506"}
+{"time":"2025-05-14T17:26:05.22201272-06:00","level":"INFO","msg":"handleInformFinish: finish message received","streamId":"9xj9l474","id":"127.0.0.1:49506"}
+{"time":"2025-05-14T17:26:05.271962697-06:00","level":"INFO","msg":"handleInformFinish: stream closed","streamId":"9xj9l474","id":"127.0.0.1:49506"}
+{"time":"2025-05-14T17:26:05.271980106-06:00","level":"INFO","msg":"handleInformInit: received","streamId":"hc1xqo1p","id":"127.0.0.1:49506"}
+{"time":"2025-05-14T17:26:05.904454661-06:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"hc1xqo1p","id":"127.0.0.1:49506"}

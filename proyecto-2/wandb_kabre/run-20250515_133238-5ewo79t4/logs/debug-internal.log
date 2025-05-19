@@ -1,0 +1,8 @@
+{"time":"2025-05-15T13:32:40.179381988-06:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/lnavarro/tec/iap2/wandb/run-20250515_133238-5ewo79t4/logs/debug-core.log"}
+{"time":"2025-05-15T13:32:41.446373331-06:00","level":"INFO","msg":"created new stream","id":"5ewo79t4"}
+{"time":"2025-05-15T13:32:41.446455053-06:00","level":"INFO","msg":"stream: started","id":"5ewo79t4"}
+{"time":"2025-05-15T13:32:41.446607432-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"5ewo79t4"}
+{"time":"2025-05-15T13:32:41.446693794-06:00","level":"INFO","msg":"handler: started","stream_id":"5ewo79t4"}
+{"time":"2025-05-15T13:32:41.446775289-06:00","level":"INFO","msg":"sender: started","stream_id":"5ewo79t4"}
+{"time":"2025-05-15T13:32:41.762721647-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-15T20:15:57.651628615-06:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/luiscantodd-tec-costa-rica/Audio-mnist/5ewo79t4/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}

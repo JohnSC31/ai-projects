@@ -1,0 +1,19 @@
+{"time":"2025-05-14T19:22:58.55344489-06:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/lnavarro/tec/iap2/wandb/run-20250514_192256-yfuu3jxf/logs/debug-core.log"}
+{"time":"2025-05-14T19:22:59.378830643-06:00","level":"INFO","msg":"created new stream","id":"yfuu3jxf"}
+{"time":"2025-05-14T19:22:59.3789321-06:00","level":"INFO","msg":"handler: started","stream_id":"yfuu3jxf"}
+{"time":"2025-05-14T19:22:59.378969495-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"yfuu3jxf"}
+{"time":"2025-05-14T19:22:59.379017776-06:00","level":"INFO","msg":"stream: started","id":"yfuu3jxf"}
+{"time":"2025-05-14T19:22:59.379130449-06:00","level":"INFO","msg":"sender: started","stream_id":"yfuu3jxf"}
+{"time":"2025-05-14T19:22:59.777835461-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-14T19:56:34.795101054-06:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 11.0.0.115:35720->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-14T21:07:04.750835509-06:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-05-14T21:07:30.773745169-06:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/luiscantodd-tec-costa-rica/Audio-mnist/yfuu3jxf/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-05-14T21:07:37.23228853-06:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-05-14T21:07:38.183450598-06:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/luiscantodd-tec-costa-rica/Audio-mnist/yfuu3jxf/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-05-14T21:07:47.895844335-06:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/luiscantodd-tec-costa-rica/Audio-mnist/yfuu3jxf/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-05-14T21:08:11.315799703-06:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-05-14T21:18:47.402669661-06:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/luiscantodd-tec-costa-rica/Audio-mnist/yfuu3jxf/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-05-14T21:18:55.003572824-06:00","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/luiscantodd-tec-costa-rica/Audio-mnist/yfuu3jxf/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-05-14T21:19:04.754571786-06:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-05-14T21:19:37.068680119-06:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-05-14T21:33:03.004095587-06:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}

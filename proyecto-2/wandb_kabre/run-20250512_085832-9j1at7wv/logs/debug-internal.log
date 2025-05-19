@@ -1,0 +1,19 @@
+{"time":"2025-05-12T08:58:32.325356313-06:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/todd/universidad/ia/ai-projects/proyecto-2/wandb/run-20250512_085832-9j1at7wv/logs/debug-core.log"}
+{"time":"2025-05-12T08:58:32.93546995-06:00","level":"INFO","msg":"created new stream","id":"9j1at7wv"}
+{"time":"2025-05-12T08:58:32.935526734-06:00","level":"INFO","msg":"stream: started","id":"9j1at7wv"}
+{"time":"2025-05-12T08:58:32.935611354-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"9j1at7wv"}
+{"time":"2025-05-12T08:58:32.935699413-06:00","level":"INFO","msg":"sender: started","stream_id":"9j1at7wv"}
+{"time":"2025-05-12T08:58:32.936036074-06:00","level":"INFO","msg":"handler: started","stream_id":"9j1at7wv"}
+{"time":"2025-05-12T08:58:33.404736253-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-12T08:58:38.09785895-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T09:19:39.845086581-06:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T09:23:19.349389566-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T09:23:19.356306127-06:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T09:23:21.270893962-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T09:23:21.274528978-06:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T09:23:23.803406055-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T09:23:23.862723963-06:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T09:23:23.862792117-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T09:23:23.862802964-06:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-12T09:23:30.587423405-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-12T09:52:33.609090457-06:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}

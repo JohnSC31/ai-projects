@@ -1,0 +1,18 @@
+{"time":"2025-05-14T15:35:40.355203296-06:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/lnavarro/tec/iap2/wandb/run-20250514_153538-9xj9l474/logs/debug-core.log"}
+{"time":"2025-05-14T15:35:40.897541237-06:00","level":"INFO","msg":"created new stream","id":"9xj9l474"}
+{"time":"2025-05-14T15:35:40.897650359-06:00","level":"INFO","msg":"handler: started","stream_id":"9xj9l474"}
+{"time":"2025-05-14T15:35:40.89768939-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"9xj9l474"}
+{"time":"2025-05-14T15:35:40.897711755-06:00","level":"INFO","msg":"stream: started","id":"9xj9l474"}
+{"time":"2025-05-14T15:35:40.897858948-06:00","level":"INFO","msg":"sender: started","stream_id":"9xj9l474"}
+{"time":"2025-05-14T15:35:41.322271702-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-14T17:22:41.441925484-06:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T17:26:03.187800275-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-14T17:26:03.681487808-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-14T17:26:03.681550893-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-14T17:26:04.612700808-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-14T17:26:04.686153174-06:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading summary","runtime_seconds":0.073261188}],"total_operations":1}}
+{"time":"2025-05-14T17:26:05.222378526-06:00","level":"INFO","msg":"stream: closing","id":"9xj9l474"}
+{"time":"2025-05-14T17:26:05.222409717-06:00","level":"INFO","msg":"handler: closed","stream_id":"9xj9l474"}
+{"time":"2025-05-14T17:26:05.222426523-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":"9xj9l474"}
+{"time":"2025-05-14T17:26:05.222532197-06:00","level":"INFO","msg":"sender: closed","stream_id":"9xj9l474"}
+{"time":"2025-05-14T17:26:05.271920921-06:00","level":"INFO","msg":"stream: closed","id":"9xj9l474"}

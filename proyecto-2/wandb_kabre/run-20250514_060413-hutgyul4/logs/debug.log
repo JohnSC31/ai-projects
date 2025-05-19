@@ -1,0 +1,27 @@
+2025-05-14 06:04:13,929 INFO    MainThread:1203533 [wandb_init.py:setup_run_log_directory():724] Logging user logs to /home/lnavarro/tec/iap2/wandb/run-20250514_060413-hutgyul4/logs/debug.log
+2025-05-14 06:04:13,930 INFO    MainThread:1203533 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to /home/lnavarro/tec/iap2/wandb/run-20250514_060413-hutgyul4/logs/debug-internal.log
+2025-05-14 06:04:13,930 INFO    MainThread:1203533 [wandb_init.py:init():852] calling init triggers
+2025-05-14 06:04:13,930 INFO    MainThread:1203533 [wandb_init.py:init():857] wandb.init called with sweep_config: {}
+config: {'epochs': 20, 'batch_size': 32, 'learning_rate': 8e-05, 'architecture': 'LeNet5Audio', 'input_size': '1x224x224', 'num_classes': 10, 'bilateral_filter': True, 'augmentation': True, '_wandb': {}}
+2025-05-14 06:04:15,780 INFO    MainThread:1203533 [wandb_init.py:init():893] starting backend
+2025-05-14 06:04:15,780 INFO    MainThread:1203533 [wandb_init.py:init():897] sending inform_init request
+2025-05-14 06:04:15,782 INFO    MainThread:1203533 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-05-14 06:04:15,782 INFO    MainThread:1203533 [wandb_init.py:init():907] backend started and connected
+2025-05-14 06:04:15,785 INFO    MainThread:1203533 [wandb_run.py:_label_probe_notebook():1369] probe notebook
+2025-05-14 06:04:15,785 INFO    MainThread:1203533 [wandb_run.py:_label_probe_notebook():1379] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2025-05-14 06:04:15,785 INFO    MainThread:1203533 [wandb_init.py:init():1002] updated telemetry
+2025-05-14 06:04:15,787 INFO    MainThread:1203533 [wandb_init.py:init():1026] communicating run to backend with 90.0 second timeout
+2025-05-14 06:04:16,719 INFO    MainThread:1203533 [wandb_init.py:init():1101] starting run threads in backend
+2025-05-14 06:04:16,975 INFO    MainThread:1203533 [wandb_run.py:_console_start():2566] atexit reg
+2025-05-14 06:04:16,976 INFO    MainThread:1203533 [wandb_run.py:_redirect():2414] redirect: wrap_raw
+2025-05-14 06:04:16,976 INFO    MainThread:1203533 [wandb_run.py:_redirect():2483] Wrapping output streams.
+2025-05-14 06:04:16,976 INFO    MainThread:1203533 [wandb_run.py:_redirect():2506] Redirects installed.
+2025-05-14 06:04:16,976 INFO    MainThread:1203533 [wandb_init.py:init():1147] run started, returning control to user process
+2025-05-14 08:17:12,355 INFO    MainThread:1203533 [wandb_run.py:_config_callback():1429] config_cb ('_wandb', 'visualize', 'conf_matrix') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix Curve'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'conf_matrix_table'}], 'fields': []}]}]}}} None
+2025-05-14 08:29:26,174 INFO    MainThread:1203533 [wandb_run.py:_finish():2314] finishing run luiscantodd-tec-costa-rica/Audio-mnist/hutgyul4
+2025-05-14 08:29:26,175 INFO    MainThread:1203533 [wandb_run.py:_atexit_cleanup():2531] got exitcode: 0
+2025-05-14 08:29:26,175 INFO    MainThread:1203533 [wandb_run.py:_restore():2513] restore
+2025-05-14 08:29:26,175 INFO    MainThread:1203533 [wandb_run.py:_restore():2519] restore done
+2025-05-14 08:29:27,461 INFO    MainThread:1203533 [wandb_run.py:_footer_history_summary_info():4160] rendering history
+2025-05-14 08:29:27,462 INFO    MainThread:1203533 [wandb_run.py:_footer_history_summary_info():4192] rendering summary
+2025-05-14 08:29:27,465 INFO    MainThread:1203533 [wandb_run.py:_footer_sync_info():4121] logging synced files

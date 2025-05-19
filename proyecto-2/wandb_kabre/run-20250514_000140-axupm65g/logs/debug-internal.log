@@ -1,0 +1,17 @@
+{"time":"2025-05-14T00:01:42.870871258-06:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/lnavarro/tec/iap2/wandb/run-20250514_000140-axupm65g/logs/debug-core.log"}
+{"time":"2025-05-14T00:01:43.371616621-06:00","level":"INFO","msg":"created new stream","id":"axupm65g"}
+{"time":"2025-05-14T00:01:43.371702223-06:00","level":"INFO","msg":"stream: started","id":"axupm65g"}
+{"time":"2025-05-14T00:01:43.37178885-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"axupm65g"}
+{"time":"2025-05-14T00:01:43.371898378-06:00","level":"INFO","msg":"sender: started","stream_id":"axupm65g"}
+{"time":"2025-05-14T00:01:43.371979758-06:00","level":"INFO","msg":"handler: started","stream_id":"axupm65g"}
+{"time":"2025-05-14T00:01:43.838105788-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-14T00:07:30.092135978-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-14T00:07:30.329772062-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-14T00:07:30.329829424-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-14T00:07:31.334465606-06:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-axupm65g-conf_matrix_table","runtime_seconds":1.387681363}],"total_operations":1}}
+{"time":"2025-05-14T00:07:32.005206218-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-14T00:07:32.381046174-06:00","level":"INFO","msg":"stream: closing","id":"axupm65g"}
+{"time":"2025-05-14T00:07:32.381095936-06:00","level":"INFO","msg":"handler: closed","stream_id":"axupm65g"}
+{"time":"2025-05-14T00:07:32.381111261-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":"axupm65g"}
+{"time":"2025-05-14T00:07:32.381206298-06:00","level":"INFO","msg":"sender: closed","stream_id":"axupm65g"}
+{"time":"2025-05-14T00:07:32.455279399-06:00","level":"INFO","msg":"stream: closed","id":"axupm65g"}

@@ -1,0 +1,16 @@
+{"time":"2025-05-14T06:04:15.929666426-06:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/lnavarro/tec/iap2/wandb/run-20250514_060413-hutgyul4/logs/debug-core.log"}
+{"time":"2025-05-14T06:04:16.430152032-06:00","level":"INFO","msg":"created new stream","id":"hutgyul4"}
+{"time":"2025-05-14T06:04:16.430208732-06:00","level":"INFO","msg":"stream: started","id":"hutgyul4"}
+{"time":"2025-05-14T06:04:16.430325694-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"hutgyul4"}
+{"time":"2025-05-14T06:04:16.430355101-06:00","level":"INFO","msg":"sender: started","stream_id":"hutgyul4"}
+{"time":"2025-05-14T06:04:16.430430981-06:00","level":"INFO","msg":"handler: started","stream_id":"hutgyul4"}
+{"time":"2025-05-14T06:04:16.844654325-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-14T08:29:26.215861789-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-14T08:29:26.216641504-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-14T08:29:27.151688633-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-14T08:29:27.181832704-06:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading summary","runtime_seconds":0.02994917}],"total_operations":1}}
+{"time":"2025-05-14T08:29:27.55964189-06:00","level":"INFO","msg":"stream: closing","id":"hutgyul4"}
+{"time":"2025-05-14T08:29:27.559698166-06:00","level":"INFO","msg":"handler: closed","stream_id":"hutgyul4"}
+{"time":"2025-05-14T08:29:27.559713738-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":"hutgyul4"}
+{"time":"2025-05-14T08:29:27.559819512-06:00","level":"INFO","msg":"sender: closed","stream_id":"hutgyul4"}
+{"time":"2025-05-14T08:29:27.616970793-06:00","level":"INFO","msg":"stream: closed","id":"hutgyul4"}

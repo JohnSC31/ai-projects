@@ -1,0 +1,17 @@
+{"time":"2025-05-14T17:45:07.04346987-06:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/lnavarro/tec/iap2/wandb/run-20250514_174504-38y65ppf/logs/debug-core.log"}
+{"time":"2025-05-14T17:45:07.743918198-06:00","level":"INFO","msg":"created new stream","id":"38y65ppf"}
+{"time":"2025-05-14T17:45:07.74402057-06:00","level":"INFO","msg":"handler: started","stream_id":"38y65ppf"}
+{"time":"2025-05-14T17:45:07.744062881-06:00","level":"INFO","msg":"stream: started","id":"38y65ppf"}
+{"time":"2025-05-14T17:45:07.744127913-06:00","level":"INFO","msg":"sender: started","stream_id":"38y65ppf"}
+{"time":"2025-05-14T17:45:07.744231469-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"38y65ppf"}
+{"time":"2025-05-14T17:45:08.11891234-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-14T19:20:57.779298678-06:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T19:22:57.03436778-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-14T19:22:57.035120136-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-14T19:22:57.992695203-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-14T19:22:58.038743892-06:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading summary","runtime_seconds":0.045886471}],"total_operations":1}}
+{"time":"2025-05-14T19:22:58.429544905-06:00","level":"INFO","msg":"stream: closing","id":"38y65ppf"}
+{"time":"2025-05-14T19:22:58.429600707-06:00","level":"INFO","msg":"handler: closed","stream_id":"38y65ppf"}
+{"time":"2025-05-14T19:22:58.429634847-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":"38y65ppf"}
+{"time":"2025-05-14T19:22:58.429745298-06:00","level":"INFO","msg":"sender: closed","stream_id":"38y65ppf"}
+{"time":"2025-05-14T19:22:58.478703916-06:00","level":"INFO","msg":"stream: closed","id":"38y65ppf"}

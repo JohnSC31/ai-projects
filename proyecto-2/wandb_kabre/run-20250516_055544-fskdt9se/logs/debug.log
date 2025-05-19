@@ -1,0 +1,27 @@
+2025-05-16 05:55:44,709 INFO    MainThread:1936756 [wandb_setup.py:_flush():68] Current SDK version is 0.19.10
+2025-05-16 05:55:44,709 INFO    MainThread:1936756 [wandb_setup.py:_flush():68] Configure stats pid to 1936756
+2025-05-16 05:55:44,709 INFO    MainThread:1936756 [wandb_setup.py:_flush():68] Loading settings from /home/lnavarro/.config/wandb/settings
+2025-05-16 05:55:44,709 INFO    MainThread:1936756 [wandb_setup.py:_flush():68] Loading settings from /home/lnavarro/tec/iap2/wandb/settings
+2025-05-16 05:55:44,709 INFO    MainThread:1936756 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-05-16 05:55:44,710 INFO    MainThread:1936756 [wandb_init.py:setup_run_log_directory():724] Logging user logs to /home/lnavarro/tec/iap2/wandb/run-20250516_055544-fskdt9se/logs/debug.log
+2025-05-16 05:55:44,710 INFO    MainThread:1936756 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to /home/lnavarro/tec/iap2/wandb/run-20250516_055544-fskdt9se/logs/debug-internal.log
+2025-05-16 05:55:44,710 INFO    MainThread:1936756 [wandb_init.py:monkeypatch_ipython():643] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fc6ab3c5bd0>
+2025-05-16 05:55:44,710 INFO    MainThread:1936756 [wandb_init.py:init():852] calling init triggers
+2025-05-16 05:55:44,710 INFO    MainThread:1936756 [wandb_init.py:init():857] wandb.init called with sweep_config: {}
+config: {'epochs': 18, 'batch_size': 32, 'learning_rate': 0.0002, 'architecture': 'ResNet18Audio', 'input_size': '1x224x224', 'num_classes': 10, 'bilateral_filter': True, 'augmentation': True, '_wandb': {}}
+2025-05-16 05:55:44,710 INFO    MainThread:1936756 [wandb_init.py:init():893] starting backend
+2025-05-16 05:55:44,710 INFO    MainThread:1936756 [wandb_init.py:init():897] sending inform_init request
+2025-05-16 05:55:44,716 INFO    MainThread:1936756 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-05-16 05:55:44,716 INFO    MainThread:1936756 [wandb_init.py:init():907] backend started and connected
+2025-05-16 05:55:44,719 INFO    MainThread:1936756 [wandb_run.py:_label_probe_notebook():1369] probe notebook
+2025-05-16 05:55:44,719 INFO    MainThread:1936756 [wandb_run.py:_label_probe_notebook():1379] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2025-05-16 05:55:44,720 INFO    MainThread:1936756 [wandb_init.py:init():1002] updated telemetry
+2025-05-16 05:55:44,890 INFO    MainThread:1936756 [wandb_init.py:init():1026] communicating run to backend with 90.0 second timeout
+2025-05-16 05:55:45,611 INFO    MainThread:1936756 [wandb_init.py:init():1101] starting run threads in backend
+2025-05-16 05:55:46,964 INFO    MainThread:1936756 [wandb_run.py:_console_start():2566] atexit reg
+2025-05-16 05:55:46,965 INFO    MainThread:1936756 [wandb_run.py:_redirect():2414] redirect: wrap_raw
+2025-05-16 05:55:46,965 INFO    MainThread:1936756 [wandb_run.py:_redirect():2483] Wrapping output streams.
+2025-05-16 05:55:46,965 INFO    MainThread:1936756 [wandb_run.py:_redirect():2506] Redirects installed.
+2025-05-16 05:55:46,970 INFO    MainThread:1936756 [wandb_init.py:init():1147] run started, returning control to user process
+2025-05-16 08:17:08,185 INFO    MainThread:1936756 [wandb_run.py:_config_callback():1429] config_cb ('_wandb', 'visualize', 'conf_matrix') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': 'Confusion Matrix Curve'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'conf_matrix_table'}], 'fields': []}]}]}}} None
+2025-05-16 08:17:11,027 INFO    MainThread:1936756 [wandb_init.py:_post_run_cell_hook():613] [no run ID] resuming backend

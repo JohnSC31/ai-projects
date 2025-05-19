@@ -1,0 +1,15 @@
+{"time":"2025-05-13T15:02:39.594921959-06:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/lnavarro/tec/iap2/wandb/run-20250513_150239-adrkshgs/logs/debug-core.log"}
+{"time":"2025-05-13T15:02:40.095342218-06:00","level":"INFO","msg":"created new stream","id":"adrkshgs"}
+{"time":"2025-05-13T15:02:40.095448435-06:00","level":"INFO","msg":"stream: started","id":"adrkshgs"}
+{"time":"2025-05-13T15:02:40.095508832-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"adrkshgs"}
+{"time":"2025-05-13T15:02:40.095624663-06:00","level":"INFO","msg":"handler: started","stream_id":"adrkshgs"}
+{"time":"2025-05-13T15:02:40.095707316-06:00","level":"INFO","msg":"sender: started","stream_id":"adrkshgs"}
+{"time":"2025-05-13T15:02:40.520269586-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-13T15:04:29.892980693-06:00","level":"INFO","msg":"stream: closing","id":"adrkshgs"}
+{"time":"2025-05-13T15:04:29.893222872-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-13T15:04:29.89336993-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-13T15:04:30.671899243-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-13T15:04:31.176555036-06:00","level":"INFO","msg":"handler: closed","stream_id":"adrkshgs"}
+{"time":"2025-05-13T15:04:31.176633293-06:00","level":"INFO","msg":"sender: closed","stream_id":"adrkshgs"}
+{"time":"2025-05-13T15:04:31.176631932-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":"adrkshgs"}
+{"time":"2025-05-13T15:04:31.272438649-06:00","level":"INFO","msg":"stream: closed","id":"adrkshgs"}

@@ -1,0 +1,17 @@
+{"time":"2025-05-13T15:04:50.291925232-06:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/lnavarro/tec/iap2/wandb/run-20250513_150450-x1669k31/logs/debug-core.log"}
+{"time":"2025-05-13T15:04:50.817682944-06:00","level":"INFO","msg":"created new stream","id":"x1669k31"}
+{"time":"2025-05-13T15:04:50.817785516-06:00","level":"INFO","msg":"sender: started","stream_id":"x1669k31"}
+{"time":"2025-05-13T15:04:50.817833898-06:00","level":"INFO","msg":"handler: started","stream_id":"x1669k31"}
+{"time":"2025-05-13T15:04:50.817859968-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"x1669k31"}
+{"time":"2025-05-13T15:04:50.817878113-06:00","level":"INFO","msg":"stream: started","id":"x1669k31"}
+{"time":"2025-05-13T15:04:51.167467955-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-13T16:45:52.063384998-06:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/luiscantodd-tec-costa-rica/Audio-mnist/x1669k31/file_stream"}
+{"time":"2025-05-13T16:45:52.064094805-06:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/luiscantodd-tec-costa-rica/Audio-mnist/x1669k31/file_stream: {\"error\":\"run Audio-mnist/x1669k31 not found while streaming file\"}"}
+{"time":"2025-05-13T16:47:08.584971723-06:00","level":"INFO","msg":"stream: closing","id":"x1669k31"}
+{"time":"2025-05-13T16:47:08.585230552-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-13T16:47:08.585460806-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-13T16:47:08.754013848-06:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-13T16:47:08.75419147-06:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"run Audio-mnist/x1669k31 not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2025-05-13T16:47:08.836405528-06:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run x1669k31 was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-05-13T16:47:08.88519967-06:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-13T16:47:08.885348072-06:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"run Audio-mnist/x1669k31 not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}

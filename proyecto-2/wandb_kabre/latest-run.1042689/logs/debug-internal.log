@@ -1,0 +1,17 @@
+{"time":"2025-05-13T22:25:31.001827727-06:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/lnavarro/tec/iap2/wandb/run-20250513_222530-t0oivtrb/logs/debug-core.log"}
+{"time":"2025-05-13T22:25:31.433162551-06:00","level":"INFO","msg":"created new stream","id":"t0oivtrb"}
+{"time":"2025-05-13T22:25:31.433238863-06:00","level":"INFO","msg":"stream: started","id":"t0oivtrb"}
+{"time":"2025-05-13T22:25:31.433381434-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"t0oivtrb"}
+{"time":"2025-05-13T22:25:31.433469827-06:00","level":"INFO","msg":"sender: started","stream_id":"t0oivtrb"}
+{"time":"2025-05-13T22:25:31.433595923-06:00","level":"INFO","msg":"handler: started","stream_id":"t0oivtrb"}
+{"time":"2025-05-13T22:25:31.856364875-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-13T22:34:32.84807972-06:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/luiscantodd-tec-costa-rica/Audio-mnist/t0oivtrb/file_stream"}
+{"time":"2025-05-13T22:34:32.848708014-06:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/luiscantodd-tec-costa-rica/Audio-mnist/t0oivtrb/file_stream: {\"error\":\"run Audio-mnist/t0oivtrb not found while streaming file\"}"}
+{"time":"2025-05-13T22:34:34.265079785-06:00","level":"INFO","msg":"stream: closing","id":"t0oivtrb"}
+{"time":"2025-05-13T22:34:34.265144401-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-13T22:34:34.265181585-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-13T22:34:34.437201702-06:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-13T22:34:34.437386765-06:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"run Audio-mnist/t0oivtrb not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2025-05-13T22:34:34.496617967-06:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run t0oivtrb was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-05-13T22:34:34.538197906-06:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-13T22:34:34.538349197-06:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"run Audio-mnist/t0oivtrb not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}

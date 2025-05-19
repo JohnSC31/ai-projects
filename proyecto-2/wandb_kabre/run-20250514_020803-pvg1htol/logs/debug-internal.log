@@ -1,0 +1,16 @@
+{"time":"2025-05-14T02:08:06.350111212-06:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/lnavarro/tec/iap2/wandb/run-20250514_020803-pvg1htol/logs/debug-core.log"}
+{"time":"2025-05-14T02:08:07.158823682-06:00","level":"INFO","msg":"created new stream","id":"pvg1htol"}
+{"time":"2025-05-14T02:08:07.158903638-06:00","level":"INFO","msg":"stream: started","id":"pvg1htol"}
+{"time":"2025-05-14T02:08:07.159018121-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"pvg1htol"}
+{"time":"2025-05-14T02:08:07.159124432-06:00","level":"INFO","msg":"sender: started","stream_id":"pvg1htol"}
+{"time":"2025-05-14T02:08:07.159231839-06:00","level":"INFO","msg":"handler: started","stream_id":"pvg1htol"}
+{"time":"2025-05-14T02:08:07.600213576-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-14T04:24:33.092871171-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-14T04:24:33.093324145-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-14T04:24:34.097034357-06:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-pvg1htol-conf_matrix_table","runtime_seconds":1.446015388}],"total_operations":1}}
+{"time":"2025-05-14T04:24:34.512466605-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-14T04:24:34.951656805-06:00","level":"INFO","msg":"stream: closing","id":"pvg1htol"}
+{"time":"2025-05-14T04:24:34.95170611-06:00","level":"INFO","msg":"handler: closed","stream_id":"pvg1htol"}
+{"time":"2025-05-14T04:24:34.951720565-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":"pvg1htol"}
+{"time":"2025-05-14T04:24:34.951744346-06:00","level":"INFO","msg":"sender: closed","stream_id":"pvg1htol"}
+{"time":"2025-05-14T04:24:35.026095296-06:00","level":"INFO","msg":"stream: closed","id":"pvg1htol"}
