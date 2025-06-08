@@ -1,0 +1,18 @@
+{"time":"2025-05-14T11:51:43.144012203-06:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/lnavarro/tec/iap2/wandb/run-20250514_115142-i1nduz05/logs/debug-core.log"}
+{"time":"2025-05-14T11:51:43.977695027-06:00","level":"INFO","msg":"created new stream","id":"i1nduz05"}
+{"time":"2025-05-14T11:51:43.977762013-06:00","level":"INFO","msg":"stream: started","id":"i1nduz05"}
+{"time":"2025-05-14T11:51:43.977880029-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"i1nduz05"}
+{"time":"2025-05-14T11:51:43.977991797-06:00","level":"INFO","msg":"handler: started","stream_id":"i1nduz05"}
+{"time":"2025-05-14T11:51:43.97810553-06:00","level":"INFO","msg":"sender: started","stream_id":"i1nduz05"}
+{"time":"2025-05-14T11:51:44.468950344-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-14T13:26:48.123953103-06:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-05-14T13:55:05.686976651-06:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/luiscantodd-tec-costa-rica/Audio-mnist/i1nduz05/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-05-14T14:02:31.321942457-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-14T14:02:31.322543359-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-14T14:02:32.227715879-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-14T14:02:32.287104947-06:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading summary","runtime_seconds":0.059192789}],"total_operations":1}}
+{"time":"2025-05-14T14:02:32.636350751-06:00","level":"INFO","msg":"stream: closing","id":"i1nduz05"}
+{"time":"2025-05-14T14:02:32.636405635-06:00","level":"INFO","msg":"handler: closed","stream_id":"i1nduz05"}
+{"time":"2025-05-14T14:02:32.636421396-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":"i1nduz05"}
+{"time":"2025-05-14T14:02:32.63653316-06:00","level":"INFO","msg":"sender: closed","stream_id":"i1nduz05"}
+{"time":"2025-05-14T14:02:32.702091832-06:00","level":"INFO","msg":"stream: closed","id":"i1nduz05"}

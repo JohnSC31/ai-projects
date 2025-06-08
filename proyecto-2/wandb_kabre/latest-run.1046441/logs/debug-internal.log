@@ -1,0 +1,17 @@
+{"time":"2025-05-13T22:44:42.820882252-06:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/lnavarro/tec/iap2/wandb/run-20250513_224442-socs77dk/logs/debug-core.log"}
+{"time":"2025-05-13T22:44:43.363262337-06:00","level":"INFO","msg":"created new stream","id":"socs77dk"}
+{"time":"2025-05-13T22:44:43.363378579-06:00","level":"INFO","msg":"stream: started","id":"socs77dk"}
+{"time":"2025-05-13T22:44:43.363432101-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"socs77dk"}
+{"time":"2025-05-13T22:44:43.363547558-06:00","level":"INFO","msg":"handler: started","stream_id":"socs77dk"}
+{"time":"2025-05-13T22:44:43.36369738-06:00","level":"INFO","msg":"sender: started","stream_id":"socs77dk"}
+{"time":"2025-05-13T22:44:43.688347964-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-13T22:53:44.609893107-06:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/luiscantodd-tec-costa-rica/Audio-mnist/socs77dk/file_stream"}
+{"time":"2025-05-13T22:53:44.610600798-06:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/luiscantodd-tec-costa-rica/Audio-mnist/socs77dk/file_stream: {\"error\":\"run Audio-mnist/socs77dk not found while streaming file\"}"}
+{"time":"2025-05-13T23:01:12.904478571-06:00","level":"INFO","msg":"stream: closing","id":"socs77dk"}
+{"time":"2025-05-13T23:01:12.904712639-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-13T23:01:12.904983899-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-13T23:01:13.078421264-06:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-13T23:01:13.078579747-06:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"run Audio-mnist/socs77dk not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2025-05-13T23:01:13.119338301-06:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run socs77dk was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-05-13T23:01:13.162604472-06:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-13T23:01:13.162731279-06:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"run Audio-mnist/socs77dk not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}

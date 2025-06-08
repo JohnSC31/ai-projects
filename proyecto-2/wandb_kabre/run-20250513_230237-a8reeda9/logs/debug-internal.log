@@ -1,0 +1,17 @@
+{"time":"2025-05-13T23:02:39.928917778-06:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/lnavarro/tec/iap2/wandb/run-20250513_230237-a8reeda9/logs/debug-core.log"}
+{"time":"2025-05-13T23:02:40.454571961-06:00","level":"INFO","msg":"created new stream","id":"a8reeda9"}
+{"time":"2025-05-13T23:02:40.454667534-06:00","level":"INFO","msg":"stream: started","id":"a8reeda9"}
+{"time":"2025-05-13T23:02:40.454766675-06:00","level":"INFO","msg":"handler: started","stream_id":"a8reeda9"}
+{"time":"2025-05-13T23:02:40.454802066-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"a8reeda9"}
+{"time":"2025-05-13T23:02:40.454889268-06:00","level":"INFO","msg":"sender: started","stream_id":"a8reeda9"}
+{"time":"2025-05-13T23:02:40.746077009-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-13T23:08:35.00399395-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-13T23:08:35.242999418-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-13T23:08:35.24305376-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-13T23:08:36.247536737-06:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-a8reeda9-conf_matrix_table","runtime_seconds":1.399915964}],"total_operations":1}}
+{"time":"2025-05-13T23:08:36.542113186-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-13T23:08:36.934616012-06:00","level":"INFO","msg":"stream: closing","id":"a8reeda9"}
+{"time":"2025-05-13T23:08:36.934665009-06:00","level":"INFO","msg":"handler: closed","stream_id":"a8reeda9"}
+{"time":"2025-05-13T23:08:36.934681079-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":"a8reeda9"}
+{"time":"2025-05-13T23:08:36.934806427-06:00","level":"INFO","msg":"sender: closed","stream_id":"a8reeda9"}
+{"time":"2025-05-13T23:08:36.992211441-06:00","level":"INFO","msg":"stream: closed","id":"a8reeda9"}

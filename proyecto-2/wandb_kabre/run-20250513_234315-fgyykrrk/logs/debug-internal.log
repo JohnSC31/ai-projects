@@ -1,0 +1,17 @@
+{"time":"2025-05-13T23:43:17.56397878-06:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/lnavarro/tec/iap2/wandb/run-20250513_234315-fgyykrrk/logs/debug-core.log"}
+{"time":"2025-05-13T23:43:18.056292719-06:00","level":"INFO","msg":"created new stream","id":"fgyykrrk"}
+{"time":"2025-05-13T23:43:18.056388241-06:00","level":"INFO","msg":"stream: started","id":"fgyykrrk"}
+{"time":"2025-05-13T23:43:18.056510889-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"fgyykrrk"}
+{"time":"2025-05-13T23:43:18.056620575-06:00","level":"INFO","msg":"handler: started","stream_id":"fgyykrrk"}
+{"time":"2025-05-13T23:43:18.056689541-06:00","level":"INFO","msg":"sender: started","stream_id":"fgyykrrk"}
+{"time":"2025-05-13T23:43:18.451360426-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-13T23:49:44.569642992-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-13T23:49:44.816815277-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-13T23:49:44.816881363-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-13T23:49:45.821502806-06:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-fgyykrrk-conf_matrix_table","runtime_seconds":1.409247112}],"total_operations":1}}
+{"time":"2025-05-13T23:49:46.142983093-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-13T23:49:46.56007981-06:00","level":"INFO","msg":"stream: closing","id":"fgyykrrk"}
+{"time":"2025-05-13T23:49:46.56012969-06:00","level":"INFO","msg":"handler: closed","stream_id":"fgyykrrk"}
+{"time":"2025-05-13T23:49:46.560144172-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":"fgyykrrk"}
+{"time":"2025-05-13T23:49:46.560247257-06:00","level":"INFO","msg":"sender: closed","stream_id":"fgyykrrk"}
+{"time":"2025-05-13T23:49:46.617518379-06:00","level":"INFO","msg":"stream: closed","id":"fgyykrrk"}

@@ -1,0 +1,7 @@
+{"time":"2025-05-12T10:33:32.767341555-06:00","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmp569wos3d/port-79117.txt","pid":79117,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false}
+{"time":"2025-05-12T10:33:32.786398273-06:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":79117}
+{"time":"2025-05-12T10:33:32.786427685-06:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":44107,"Zone":""}}
+{"time":"2025-05-12T10:33:32.853793159-06:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:44598"}
+{"time":"2025-05-12T10:33:33.298043018-06:00","level":"INFO","msg":"handleInformInit: received","streamId":"919hs1m4","id":"127.0.0.1:44598"}
+{"time":"2025-05-12T10:33:33.691040683-06:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"919hs1m4","id":"127.0.0.1:44598"}
+{"time":"2025-05-12T11:38:02.048508328-06:00","level":"INFO","msg":"received shutdown signal","signal":2}

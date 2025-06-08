@@ -1,0 +1,17 @@
+{"time":"2025-05-13T23:17:28.383107282-06:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/lnavarro/tec/iap2/wandb/run-20250513_231726-g1p48pr8/logs/debug-core.log"}
+{"time":"2025-05-13T23:17:28.858605238-06:00","level":"INFO","msg":"created new stream","id":"g1p48pr8"}
+{"time":"2025-05-13T23:17:28.85866838-06:00","level":"INFO","msg":"stream: started","id":"g1p48pr8"}
+{"time":"2025-05-13T23:17:28.858781505-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"g1p48pr8"}
+{"time":"2025-05-13T23:17:28.858887929-06:00","level":"INFO","msg":"handler: started","stream_id":"g1p48pr8"}
+{"time":"2025-05-13T23:17:28.85895679-06:00","level":"INFO","msg":"sender: started","stream_id":"g1p48pr8"}
+{"time":"2025-05-13T23:17:29.208770488-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-13T23:23:51.515491706-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-13T23:23:51.747059828-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-13T23:23:51.747132143-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-13T23:23:52.751523996-06:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-g1p48pr8-conf_matrix_table","runtime_seconds":1.370748141}],"total_operations":1}}
+{"time":"2025-05-13T23:23:53.071983685-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-13T23:23:53.448056994-06:00","level":"INFO","msg":"stream: closing","id":"g1p48pr8"}
+{"time":"2025-05-13T23:23:53.448105565-06:00","level":"INFO","msg":"handler: closed","stream_id":"g1p48pr8"}
+{"time":"2025-05-13T23:23:53.448120991-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":"g1p48pr8"}
+{"time":"2025-05-13T23:23:53.448223972-06:00","level":"INFO","msg":"sender: closed","stream_id":"g1p48pr8"}
+{"time":"2025-05-13T23:23:53.505513728-06:00","level":"INFO","msg":"stream: closed","id":"g1p48pr8"}

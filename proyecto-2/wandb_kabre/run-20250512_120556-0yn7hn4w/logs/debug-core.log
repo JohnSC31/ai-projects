@@ -1,0 +1,15 @@
+{"time":"2025-05-12T11:56:04.435772797-06:00","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmpz_t36_4t/port-98907.txt","pid":98907,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false}
+{"time":"2025-05-12T11:56:04.46366826-06:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":98907}
+{"time":"2025-05-12T11:56:04.463982782-06:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":44707,"Zone":""}}
+{"time":"2025-05-12T11:56:04.507801516-06:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:60326"}
+{"time":"2025-05-12T11:56:04.87614856-06:00","level":"INFO","msg":"handleInformInit: received","streamId":"pz8ynpea","id":"127.0.0.1:60326"}
+{"time":"2025-05-12T11:56:05.287399403-06:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"pz8ynpea","id":"127.0.0.1:60326"}
+{"time":"2025-05-12T12:05:47.328134125-06:00","level":"INFO","msg":"handleInformFinish: finish message received","streamId":"pz8ynpea","id":"127.0.0.1:60326"}
+{"time":"2025-05-12T12:05:47.328404159-06:00","level":"INFO","msg":"handleInformFinish: stream closed","streamId":"pz8ynpea","id":"127.0.0.1:60326"}
+{"time":"2025-05-12T12:05:47.373594513-06:00","level":"INFO","msg":"handleInformInit: received","streamId":"w6gaj4xy","id":"127.0.0.1:60326"}
+{"time":"2025-05-12T12:05:47.705267632-06:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"w6gaj4xy","id":"127.0.0.1:60326"}
+{"time":"2025-05-12T12:05:57.045505973-06:00","level":"INFO","msg":"handleInformFinish: finish message received","streamId":"w6gaj4xy","id":"127.0.0.1:60326"}
+{"time":"2025-05-12T12:05:57.045750407-06:00","level":"INFO","msg":"handleInformFinish: stream closed","streamId":"w6gaj4xy","id":"127.0.0.1:60326"}
+{"time":"2025-05-12T12:05:57.086617183-06:00","level":"INFO","msg":"handleInformInit: received","streamId":"0yn7hn4w","id":"127.0.0.1:60326"}
+{"time":"2025-05-12T12:05:57.411344057-06:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"0yn7hn4w","id":"127.0.0.1:60326"}
+{"time":"2025-05-12T13:15:20.388341248-06:00","level":"INFO","msg":"received shutdown signal","signal":2}

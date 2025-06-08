@@ -1,0 +1,75 @@
+_wandb:
+    value:
+        cli_version: 0.19.10
+        m: []
+        python_version: 3.11.11
+        t:
+            "1":
+                - 1
+                - 53
+                - 55
+            "2":
+                - 1
+                - 53
+                - 55
+            "3":
+                - 2
+                - 13
+                - 15
+                - 16
+                - 23
+                - 55
+            "4": 3.11.11
+            "5": 0.19.10
+            "8":
+                - 1
+                - 5
+            "12": 0.19.10
+            "13": linux-x86_64
+        visualize:
+            conf_matrix:
+                panel_config:
+                    fieldSettings:
+                        Actual: Actual
+                        Predicted: Predicted
+                        nPredictions: nPredictions
+                    panelDefId: wandb/confusion_matrix/v1
+                    stringSettings:
+                        title: Confusion Matrix Curve
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: conf_matrix_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
+architecture:
+    value: ResNet18Audio
+augmentation:
+    value: false
+batch_size:
+    value: 32
+bilateral_filter:
+    value: true
+epochs:
+    value: 4
+input_size:
+    value: 1x224x224
+learning_rate:
+    value: 0.0003
+num_classes:
+    value: 10

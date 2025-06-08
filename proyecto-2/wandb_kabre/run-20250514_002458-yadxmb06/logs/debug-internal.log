@@ -1,0 +1,17 @@
+{"time":"2025-05-14T00:25:01.494038332-06:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/lnavarro/tec/iap2/wandb/run-20250514_002458-yadxmb06/logs/debug-core.log"}
+{"time":"2025-05-14T00:25:01.969628321-06:00","level":"INFO","msg":"created new stream","id":"yadxmb06"}
+{"time":"2025-05-14T00:25:01.969708637-06:00","level":"INFO","msg":"handler: started","stream_id":"yadxmb06"}
+{"time":"2025-05-14T00:25:01.969749574-06:00","level":"INFO","msg":"stream: started","id":"yadxmb06"}
+{"time":"2025-05-14T00:25:01.969801665-06:00","level":"INFO","msg":"sender: started","stream_id":"yadxmb06"}
+{"time":"2025-05-14T00:25:01.969879652-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"yadxmb06"}
+{"time":"2025-05-14T00:25:02.328025371-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-14T02:08:03.974864635-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-14T02:08:04.261188051-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-14T02:08:04.261240131-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-14T02:08:05.265416325-06:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-yadxmb06-conf_matrix_table","runtime_seconds":1.4400374409999999}],"total_operations":1}}
+{"time":"2025-05-14T02:08:05.708756288-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-14T02:08:06.20969752-06:00","level":"INFO","msg":"stream: closing","id":"yadxmb06"}
+{"time":"2025-05-14T02:08:06.209746561-06:00","level":"INFO","msg":"handler: closed","stream_id":"yadxmb06"}
+{"time":"2025-05-14T02:08:06.209761426-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":"yadxmb06"}
+{"time":"2025-05-14T02:08:06.209857967-06:00","level":"INFO","msg":"sender: closed","stream_id":"yadxmb06"}
+{"time":"2025-05-14T02:08:06.267431154-06:00","level":"INFO","msg":"stream: closed","id":"yadxmb06"}

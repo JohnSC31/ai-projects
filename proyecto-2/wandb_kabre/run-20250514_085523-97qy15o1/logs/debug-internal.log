@@ -1,0 +1,16 @@
+{"time":"2025-05-14T08:55:23.639824513-06:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/lnavarro/tec/iap2/wandb/run-20250514_085523-97qy15o1/logs/debug-core.log"}
+{"time":"2025-05-14T08:55:24.223799133-06:00","level":"INFO","msg":"created new stream","id":"97qy15o1"}
+{"time":"2025-05-14T08:55:24.223874144-06:00","level":"INFO","msg":"stream: started","id":"97qy15o1"}
+{"time":"2025-05-14T08:55:24.223920609-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"97qy15o1"}
+{"time":"2025-05-14T08:55:24.224032546-06:00","level":"INFO","msg":"handler: started","stream_id":"97qy15o1"}
+{"time":"2025-05-14T08:55:24.224142594-06:00","level":"INFO","msg":"sender: started","stream_id":"97qy15o1"}
+{"time":"2025-05-14T08:55:24.657005422-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-14T09:11:14.806207562-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-14T09:11:14.806734408-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-14T09:11:15.810450959-06:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.581788854},{"desc":"uploading config.yaml","runtime_seconds":0.174741557,"progress":"2.1KB/2.1KB"}],"total_operations":2}}
+{"time":"2025-05-14T09:11:15.908086136-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-14T09:11:16.326044146-06:00","level":"INFO","msg":"stream: closing","id":"97qy15o1"}
+{"time":"2025-05-14T09:11:16.326098092-06:00","level":"INFO","msg":"handler: closed","stream_id":"97qy15o1"}
+{"time":"2025-05-14T09:11:16.326115127-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":"97qy15o1"}
+{"time":"2025-05-14T09:11:16.326224619-06:00","level":"INFO","msg":"sender: closed","stream_id":"97qy15o1"}
+{"time":"2025-05-14T09:11:16.39186149-06:00","level":"INFO","msg":"stream: closed","id":"97qy15o1"}

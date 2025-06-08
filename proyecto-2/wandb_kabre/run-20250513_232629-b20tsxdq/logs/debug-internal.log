@@ -1,0 +1,17 @@
+{"time":"2025-05-13T23:26:31.809966613-06:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/lnavarro/tec/iap2/wandb/run-20250513_232629-b20tsxdq/logs/debug-core.log"}
+{"time":"2025-05-13T23:26:32.260630516-06:00","level":"INFO","msg":"created new stream","id":"b20tsxdq"}
+{"time":"2025-05-13T23:26:32.260690477-06:00","level":"INFO","msg":"stream: started","id":"b20tsxdq"}
+{"time":"2025-05-13T23:26:32.260811195-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"b20tsxdq"}
+{"time":"2025-05-13T23:26:32.260914576-06:00","level":"INFO","msg":"handler: started","stream_id":"b20tsxdq"}
+{"time":"2025-05-13T23:26:32.260983138-06:00","level":"INFO","msg":"sender: started","stream_id":"b20tsxdq"}
+{"time":"2025-05-13T23:26:32.593799641-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-13T23:32:28.043864499-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-13T23:32:28.259580563-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-13T23:32:28.259656883-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-13T23:32:29.263858316-06:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-b20tsxdq-conf_matrix_table","runtime_seconds":1.36378044}],"total_operations":1}}
+{"time":"2025-05-13T23:32:29.668466424-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-13T23:32:30.048503989-06:00","level":"INFO","msg":"stream: closing","id":"b20tsxdq"}
+{"time":"2025-05-13T23:32:30.048553206-06:00","level":"INFO","msg":"handler: closed","stream_id":"b20tsxdq"}
+{"time":"2025-05-13T23:32:30.048568817-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":"b20tsxdq"}
+{"time":"2025-05-13T23:32:30.048608366-06:00","level":"INFO","msg":"sender: closed","stream_id":"b20tsxdq"}
+{"time":"2025-05-13T23:32:30.122737635-06:00","level":"INFO","msg":"stream: closed","id":"b20tsxdq"}

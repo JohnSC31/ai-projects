@@ -1,0 +1,17 @@
+{"time":"2025-05-13T14:33:48.502475873-06:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/lnavarro/tec/iap2/wandb/run-20250513_143346-rqudkjbe/logs/debug-core.log"}
+{"time":"2025-05-13T14:33:49.044794512-06:00","level":"INFO","msg":"created new stream","id":"rqudkjbe"}
+{"time":"2025-05-13T14:33:49.044900074-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"rqudkjbe"}
+{"time":"2025-05-13T14:33:49.044996437-06:00","level":"INFO","msg":"stream: started","id":"rqudkjbe"}
+{"time":"2025-05-13T14:33:49.045119654-06:00","level":"INFO","msg":"handler: started","stream_id":"rqudkjbe"}
+{"time":"2025-05-13T14:33:49.045109279-06:00","level":"INFO","msg":"sender: started","stream_id":"rqudkjbe"}
+{"time":"2025-05-13T14:33:49.469711356-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-13T14:35:39.373159397-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-13T14:35:39.730650059-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-13T14:35:39.730746161-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-13T14:35:40.633828094-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-13T14:35:40.69916119-06:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading summary","runtime_seconds":0.065176456}],"total_operations":1}}
+{"time":"2025-05-13T14:35:41.252381947-06:00","level":"INFO","msg":"stream: closing","id":"rqudkjbe"}
+{"time":"2025-05-13T14:35:41.25243762-06:00","level":"INFO","msg":"handler: closed","stream_id":"rqudkjbe"}
+{"time":"2025-05-13T14:35:41.252453355-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rqudkjbe"}
+{"time":"2025-05-13T14:35:41.252562752-06:00","level":"INFO","msg":"sender: closed","stream_id":"rqudkjbe"}
+{"time":"2025-05-13T14:35:41.316682815-06:00","level":"INFO","msg":"stream: closed","id":"rqudkjbe"}

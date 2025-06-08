@@ -1,0 +1,7 @@
+{"time":"2025-05-12T07:57:51.974633238-06:00","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmp5nlpmlgv/port-30852.txt","pid":30852,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false}
+{"time":"2025-05-12T07:57:51.991175291-06:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":30852}
+{"time":"2025-05-12T07:57:51.991827069-06:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":45039,"Zone":""}}
+{"time":"2025-05-12T07:57:52.035585854-06:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:35422"}
+{"time":"2025-05-12T07:59:41.239260068-06:00","level":"INFO","msg":"handleInformInit: received","streamId":"zaqiibge","id":"127.0.0.1:35422"}
+{"time":"2025-05-12T07:59:41.5995427-06:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"zaqiibge","id":"127.0.0.1:35422"}
+{"time":"2025-05-12T08:50:50.911641981-06:00","level":"INFO","msg":"received shutdown signal","signal":2}

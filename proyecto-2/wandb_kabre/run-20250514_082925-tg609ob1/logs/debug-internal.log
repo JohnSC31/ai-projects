@@ -1,0 +1,17 @@
+{"time":"2025-05-14T08:29:27.736868059-06:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/home/lnavarro/tec/iap2/wandb/run-20250514_082925-tg609ob1/logs/debug-core.log"}
+{"time":"2025-05-14T08:29:28.25332028-06:00","level":"INFO","msg":"created new stream","id":"tg609ob1"}
+{"time":"2025-05-14T08:29:28.253414837-06:00","level":"INFO","msg":"sender: started","stream_id":"tg609ob1"}
+{"time":"2025-05-14T08:29:28.253461153-06:00","level":"INFO","msg":"handler: started","stream_id":"tg609ob1"}
+{"time":"2025-05-14T08:29:28.253487842-06:00","level":"INFO","msg":"writer: Do: started","stream_id":"tg609ob1"}
+{"time":"2025-05-14T08:29:28.253503992-06:00","level":"INFO","msg":"stream: started","id":"tg609ob1"}
+{"time":"2025-05-14T08:29:28.533957326-06:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-14T08:34:33.448944802-06:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-14T08:34:33.74291784-06:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-14T08:34:33.742974611-06:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-14T08:34:34.747456956-06:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.098035085,"progress":"2.1KB/2.1KB"}],"total_operations":1}}
+{"time":"2025-05-14T08:34:34.942019568-06:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-14T08:34:35.393455854-06:00","level":"INFO","msg":"stream: closing","id":"tg609ob1"}
+{"time":"2025-05-14T08:34:35.393509586-06:00","level":"INFO","msg":"handler: closed","stream_id":"tg609ob1"}
+{"time":"2025-05-14T08:34:35.393526637-06:00","level":"INFO","msg":"writer: Close: closed","stream_id":"tg609ob1"}
+{"time":"2025-05-14T08:34:35.39366853-06:00","level":"INFO","msg":"sender: closed","stream_id":"tg609ob1"}
+{"time":"2025-05-14T08:34:35.464516036-06:00","level":"INFO","msg":"stream: closed","id":"tg609ob1"}

@@ -1,0 +1,50 @@
+2025-05-14 08:53:17,560 INFO    MainThread:1203533 [wandb_init.py:setup_run_log_directory():724] Logging user logs to /home/lnavarro/tec/iap2/wandb/run-20250514_085317-i2dwxalz/logs/debug.log
+2025-05-14 08:53:17,561 INFO    MainThread:1203533 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to /home/lnavarro/tec/iap2/wandb/run-20250514_085317-i2dwxalz/logs/debug-internal.log
+2025-05-14 08:53:17,561 INFO    MainThread:1203533 [wandb_init.py:monkeypatch_ipython():643] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f221df73dd0>
+2025-05-14 08:53:17,561 INFO    MainThread:1203533 [wandb_init.py:init():852] calling init triggers
+2025-05-14 08:53:17,561 INFO    MainThread:1203533 [wandb_init.py:init():857] wandb.init called with sweep_config: {}
+config: {'epochs': 4, 'batch_size': 32, 'learning_rate': 0.0001, 'architecture': 'LeNet5Audio', 'input_size': '1x224x224', 'num_classes': 10, 'bilateral_filter': False, 'augmentation': False, '_wandb': {}}
+2025-05-14 08:54:46,409 WARNING MainThread:1203533 [wandb_init.py:init():1654] [no run ID] interrupted
+Traceback (most recent call last):
+  File "/work/lnavarro/miniforge3/envs/proyecto2/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1650, in init
+    return wi.init(run_settings, run_config, run_printer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/lnavarro/miniforge3/envs/proyecto2/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 873, in init
+    self._wl.finish_all_active_runs()
+  File "/work/lnavarro/miniforge3/envs/proyecto2/lib/python3.11/site-packages/wandb/sdk/wandb_setup.py", line 150, in finish_all_active_runs
+    run.finish()
+  File "/work/lnavarro/miniforge3/envs/proyecto2/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/lnavarro/miniforge3/envs/proyecto2/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 503, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/lnavarro/miniforge3/envs/proyecto2/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 451, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/lnavarro/miniforge3/envs/proyecto2/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 2302, in finish
+    return self._finish(exit_code)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/lnavarro/miniforge3/envs/proyecto2/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/lnavarro/miniforge3/envs/proyecto2/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 2330, in _finish
+    self._atexit_cleanup(exit_code=exit_code)
+  File "/work/lnavarro/miniforge3/envs/proyecto2/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 2543, in _atexit_cleanup
+    self._on_finish()
+  File "/work/lnavarro/miniforge3/envs/proyecto2/lib/python3.11/site-packages/wandb/sdk/wandb_run.py", line 2799, in _on_finish
+    wait_with_progress(
+  File "/work/lnavarro/miniforge3/envs/proyecto2/lib/python3.11/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 24, in wait_with_progress
+    return wait_all_with_progress(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/lnavarro/miniforge3/envs/proyecto2/lib/python3.11/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 87, in wait_all_with_progress
+    return asyncio_compat.run(progress_loop_with_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/lnavarro/miniforge3/envs/proyecto2/lib/python3.11/site-packages/wandb/sdk/lib/asyncio_compat.py", line 30, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/work/lnavarro/miniforge3/envs/proyecto2/lib/python3.11/concurrent/futures/_base.py", line 451, in result
+    self._condition.wait(timeout)
+  File "/work/lnavarro/miniforge3/envs/proyecto2/lib/python3.11/threading.py", line 327, in wait
+    waiter.acquire()
+KeyboardInterrupt

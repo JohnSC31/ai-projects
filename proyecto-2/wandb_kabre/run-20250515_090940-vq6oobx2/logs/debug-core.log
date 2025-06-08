@@ -1,0 +1,10 @@
+{"time":"2025-05-15T09:09:40.091855861-06:00","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmpf7bsr0r2/port-1664193.txt","pid":1664193,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false}
+{"time":"2025-05-15T09:09:40.0954543-06:00","level":"INFO","msg":"Will exit if parent process dies.","ppid":1664193}
+{"time":"2025-05-15T09:09:40.095743235-06:00","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":35199,"Zone":""}}
+{"time":"2025-05-15T09:09:40.101303129-06:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:44320"}
+{"time":"2025-05-15T09:09:40.893233386-06:00","level":"INFO","msg":"handleInformInit: received","streamId":"vq6oobx2","id":"127.0.0.1:44320"}
+{"time":"2025-05-15T09:09:41.575844007-06:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"vq6oobx2","id":"127.0.0.1:44320"}
+{"time":"2025-05-15T13:32:40.063061965-06:00","level":"INFO","msg":"handleInformFinish: finish message received","streamId":"vq6oobx2","id":"127.0.0.1:44320"}
+{"time":"2025-05-15T13:32:40.104525292-06:00","level":"INFO","msg":"handleInformFinish: stream closed","streamId":"vq6oobx2","id":"127.0.0.1:44320"}
+{"time":"2025-05-15T13:32:40.105017998-06:00","level":"INFO","msg":"handleInformInit: received","streamId":"5ewo79t4","id":"127.0.0.1:44320"}
+{"time":"2025-05-15T13:32:41.446468373-06:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"5ewo79t4","id":"127.0.0.1:44320"}

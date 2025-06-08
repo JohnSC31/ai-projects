@@ -1,0 +1,5 @@
+2025-05-12 08:55:29,267 INFO    MainThread:30852 [wandb_init.py:setup_run_log_directory():724] Logging user logs to /home/todd/universidad/ia/ai-projects/proyecto-2/wandb/run-20250512_085529-75u4i1vx/logs/debug.log
+2025-05-12 08:55:29,267 INFO    MainThread:30852 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to /home/todd/universidad/ia/ai-projects/proyecto-2/wandb/run-20250512_085529-75u4i1vx/logs/debug-internal.log
+2025-05-12 08:55:29,267 INFO    MainThread:30852 [wandb_init.py:init():852] calling init triggers
+2025-05-12 08:55:29,267 INFO    MainThread:30852 [wandb_init.py:init():857] wandb.init called with sweep_config: {}
+config: {'epochs': 15, 'batch_size': 32, 'learning_rate': 0.001, 'architecture': 'LeNet5Audio', 'input_size': '1x224x224', '_wandb': {}}
