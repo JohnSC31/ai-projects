@@ -1,0 +1,20 @@
+# COMO GENERAR EL AMBIENTE
+# conda env create -f environment2.yml
+# conda activate tarea-3
+name: tarea-3
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - openai
+      - langchain
+      - faiss-cpu
+      - streamlit
+      - streamlit-chat
+      - tiktoken
+      - requests
+      - beautifulsoup4
+      - python-dotenv

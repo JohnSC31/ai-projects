@@ -3,3 +3,4 @@ proyecto-2/wandb
 proyecto-2/utils/__pycache__
 *__pycache__*
 *.ipynb_checkpoints*
+.env
