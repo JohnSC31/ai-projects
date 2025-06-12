@@ -30,7 +30,7 @@ def create_rag_tool(openai_api_key: str):
             return [
                 {
                     "text": self.documents[i].get_text(),
-                    "metadata": self.documents[i].get_meta_data(),
+                    "metadata": self.documents[i].get_metadata(),
                     "distance": float(distances[0][j])
                 }
                 for j, i in enumerate(indices[0])
