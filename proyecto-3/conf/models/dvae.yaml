@@ -1,0 +1,10 @@
+MODEL: dvae
+# 4 values for lr grid search
+GS_LR: [1e-3, 1e-4, 1e-5, 1e-6]
+GS_NUM_EPOCHS: 4
+LOSS: MSE
+H_DIM: 4000
+Z_DIM: 400
+NUM_EPOCHS: 10
+BATCH_SIZE: 32
+LR_RATE: 3e-4
