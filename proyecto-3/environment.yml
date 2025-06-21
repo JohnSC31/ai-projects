@@ -1,0 +1,17 @@
+name: p3
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - pytorch-gpu
+  - torchvision
+  - lightning
+  - hydra-core
+  - pip:
+      - matplotlib==3.10.1
+      - numpy==2.1.2
+      - opencv-python==4.11.0.86
+      - wandb==0.19.10
+
+# Run conda install -c conda-forge librosa after
