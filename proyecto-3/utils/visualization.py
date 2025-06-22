@@ -23,15 +23,15 @@ def plot_distribution(dataset_structure):
     plt.tight_layout()
     plt.show()
 
-def plot_samples_per_species(dataset_structure, split='train', top_n=10):
+def plot_samples_per_species(dataset_structure, split='train'):
     species_counts = dataset_structure[split]
-    sorted_species = sorted(species_counts.items(), key=lambda x: x[1], reverse=True)[:top_n]
+    sorted_species = sorted(species_counts.items(), key=lambda x: x[1], reverse=True) 
     
     species_names, counts = zip(*sorted_species)
     
     plt.figure(figsize=(12, 6))
     plt.barh(species_names, counts, color='skyblue')
-    plt.title(f'Top {top_n} especies con más imágenes ({split.upper()})')
+    plt.title(f'Distribución de imágenes por especie ({split.upper()})', fontsize=14, pad=15)
     plt.xlabel('Número de imágenes')
     plt.gca().invert_yaxis()
     plt.tight_layout()
