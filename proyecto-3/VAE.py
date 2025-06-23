@@ -123,10 +123,17 @@ class VAE(LightningModule):
         d1 = self.decoder1(torch.cat([d1, e1], dim=1))
         return self.final_conv(d1)
 
-    def forward(self, x):
+    # Extrae solo el vector latente z sin decodificar
+    def get_latent_representation(self, x):
+        mean, log_var, _, _, _ = self.encode(x)
+        return self.reparameterize(mean, log_var)
+
+    def forward(self, x, return_latent=False):
         mean, log_var, e1, e2, e3 = self.encode(x)
         z = self.reparameterize(mean, log_var)
-        return self.decode(z, e1, e2, e3), mean, log_var, z
+        if return_latent:
+            return z
+        return self.decode(z, e1, e2, e3), mean, log_var
 
     def loss_function(self, recon_x, x, mean, log_var):
         BCE = F.binary_cross_entropy(recon_x, x.view(-1, 784), reduction='sum')
