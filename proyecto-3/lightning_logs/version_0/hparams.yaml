@@ -1,0 +1,6 @@
+in_channels: 3
+out_channels: 1
+hidden_dim: 128
+latent_dim: 64
+noise_p: 0.05
+lr: 0.001
