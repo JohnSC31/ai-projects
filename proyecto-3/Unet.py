@@ -63,18 +63,18 @@ class UNet(pl.LightningModule):
         d1 = self.upconv1(d2)
         d1 = self.decoder1(torch.cat([d1, e1], dim=1))
 
-        return self.final_conv(d1)
+        return self.final_conv(d1), b
 
     def training_step(self, batch, batch_idx):
         x, y = batch
-        x_hat = self.forward(x)
+        x_hat, b = self.forward(x)
         loss = F.mse_loss(x_hat, y)
         self.log("train_loss", loss)
         return loss
 
     def test_step(self, batch, batch_idx):
         x, y = batch
-        x_hat = self.forward(x)
+        x_hat, b = self.forward(x)
         loss = F.mse_loss(x_hat, y)
         self.log("test_loss", loss)
         return loss

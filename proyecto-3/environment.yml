@@ -8,6 +8,8 @@ dependencies:
   - torchvision
   - lightning
   - hydra-core
+  - scikit-learn
+  - seaborn
   - pip:
       - matplotlib==3.10.1
       - numpy==2.1.2
