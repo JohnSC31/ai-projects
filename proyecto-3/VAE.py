@@ -38,7 +38,18 @@ class BernoulliNoise(nn.Module):
         return mask * flipped + (1 - mask) * x
 
 class VAE(LightningModule):
-    def __init__(self, in_channels=1, out_channels=1, hidden_dim=128, latent_dim=64, noise_p=0.01, lr=1e-3):
+    def __init__(
+                self, 
+                in_channels=1, 
+                out_channels=1, 
+                hidden_dim=128, 
+                latent_dim=64, 
+                num_classes=30,
+                noise_p=0.01, 
+                lr=1e-3,
+                kld_w=0.00025,
+                recon_w=0.5,
+                cl_w=0.5):
         """
         Variational Autoencoder (VAE) with Bernoulli noise layer.
         Args:
@@ -51,6 +62,9 @@ class VAE(LightningModule):
         super().__init__()
         self.save_hyperparameters()
         self.lr = lr
+        self.kld_w = kld_w
+        self.recon_w = recon_w
+        self.cls_w = cl_w
 
         # Add Bernoulli noise layer
         self.bernoulli_noise = BernoulliNoise(p=noise_p)
@@ -65,17 +79,20 @@ class VAE(LightningModule):
 
         # Encoder / Mean and log variance
         self.flatten_bottleneck = nn.Flatten()
-        self.linear1 = nn.Linear(512 * 16 * 16, hidden_dim)
+        self.linear1 = nn.Linear(512 * 28 * 28, hidden_dim)
         self.linear2 = nn.Linear(hidden_dim, hidden_dim)
         self.linear_mean = nn.Linear(hidden_dim, latent_dim)
         self.linear_log_var = nn.Linear(hidden_dim, latent_dim)
+
+        # Classifier
+        self.classifier = nn.Linear(latent_dim, num_classes)
 
 
         # Decoder / Lineal layers
         self.backlinear1 = nn.Linear(latent_dim, hidden_dim)
         self.backlinear2 = nn.Linear(hidden_dim, hidden_dim)
-        self.backlinear3 = nn.Linear(hidden_dim, 512 * 16 * 16)
-        self.unflatten_back = nn.Unflatten(1, (512, 16, 16))
+        self.backlinear3 = nn.Linear(hidden_dim, 512 * 28 * 28)
+        self.unflatten_back = nn.Unflatten(1, (512, 28, 28))
         # Decoder / Higher dimensionality
         self.upconv3 = nn.ConvTranspose2d(512, 256, kernel_size=2, stride=2)
         self.decoder3 = DoubleConv(512, 256)
@@ -107,7 +124,7 @@ class VAE(LightningModule):
         std = torch.exp(0.5 * log_var)
         eps = torch.randn_like(std)
         return mean + eps * std
-
+        
     def decode(self, z, e1, e2, e3):
         bh1 = F.relu(self.backlinear1(z))
         bh2 = F.relu(self.backlinear2(bh1))
@@ -133,18 +150,51 @@ class VAE(LightningModule):
         z = self.reparameterize(mean, log_var)
         if return_latent:
             return z
-        return self.decode(z, e1, e2, e3), mean, log_var
-
-    def loss_function(self, recon_x, x, mean, log_var):
-        BCE = F.binary_cross_entropy(recon_x, x.view(-1, 784), reduction='sum')
-        KLD = -0.5 * torch.sum(1 + log_var - mean.pow(2) - log_var.exp())
-        return BCE + KLD
+        y = self.classifier(z)
+        return self.decode(z, e1, e2, e3), y, mean, log_var, z
 
     def training_step(self, batch, batch_idx):
-        x, _ = batch
-        recon_x, mean, log_var, z = self(x)
-        loss = self.loss_function(recon_x, x, mean, log_var)
-        self.log('train_loss', loss)
+        x, y_cls = batch
+        recon_x, logits, mean, log_var, z = self(x)
+        recon_loss = F.mse_loss(recon_x, x)
+        KLD = -0.5 * torch.sum(1 + log_var - mean.pow(2) - log_var.exp())
+        cls_loss = F.cross_entropy(logits, y_cls)
+        loss = recon_loss*self.recon_w+cls_loss*self.cls_w+KLD*self.kld_w
+        acc = (logits.argmax(dim=1) == y_cls).float().mean()
+        self.log('train/recon_loss', recon_loss)
+        self.log('train/cls_loss', cls_loss)
+        self.log('train/KLD_loss', KLD)
+        self.log('train/loss', loss)
+        self.log('train/acc', acc)
+        return loss
+    def validation_step(self, batch, batch_idx):
+        x, y_cls = batch
+        recon_x, logits, mean, log_var, z = self(x)
+        recon_loss = F.mse_loss(recon_x, x)
+        KLD = -0.5 * torch.sum(1 + log_var - mean.pow(2) - log_var.exp())
+        cls_loss = F.cross_entropy(logits, y_cls)
+        loss = recon_loss*self.recon_w+cls_loss*self.cls_w+KLD*self.kld_w
+        acc = (logits.argmax(dim=1) == y_cls).float().mean()
+        self.log('val/recon_loss', recon_loss)
+        self.log('val/cls_loss', cls_loss)
+        self.log('val/KLD_loss', KLD)
+        self.log('val/loss', loss)
+        self.log('val/acc', acc)
+        return loss
+    
+    def test_step(self, batch, batch_idx):
+        x, y_cls = batch
+        recon_x, logits, mean, log_var, z = self(x)
+        recon_loss = F.mse_loss(recon_x, x)
+        KLD = -0.5 * torch.sum(1 + log_var - mean.pow(2) - log_var.exp())
+        cls_loss = F.cross_entropy(logits, y_cls)
+        loss = recon_loss*self.recon_w+cls_loss*self.cls_w+KLD*self.kld_w
+        acc = (logits.argmax(dim=1) == y_cls).float().mean()
+        self.log('test/recon_loss', recon_loss)
+        self.log('test/cls_loss', cls_loss)
+        self.log('test/KLD_loss', KLD)
+        self.log('test/loss', loss)
+        self.log('test/acc', acc)
         return loss
 
     def configure_optimizers(self):

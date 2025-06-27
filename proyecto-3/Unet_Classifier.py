@@ -32,38 +32,38 @@ class UNet_Classifier(pl.LightningModule):
         return x_hat, logits
 
     def training_step(self, batch, batch_idx):
-        x, y_cls = batch  # y_seg: segmentation/reconstruction target, y_cls: class index
+        x, y_cls = batch  # y_cls: class index
         x_hat, logits = self.forward(x)
         loss_recon = F.mse_loss(x_hat, x)
         loss_cls = F.cross_entropy(logits, y_cls)
         loss = self.ae_w * loss_recon + self.cl_w * loss_cls
         acc = (logits.argmax(dim=1) == y_cls).float().mean()
-        self.log("train_loss", loss)
-        self.log("train_recon_loss", loss_recon)
-        self.log("train_cls_loss", loss_cls)
-        self.log("train_acc", acc)
+        self.log("train/loss", loss)
+        self.log("train/recon_loss", loss_recon)
+        self.log("train/cls_loss", loss_cls)
+        self.log("train/acc", acc)
         return loss
 
     def validation_step(self, batch, batch_idx):
-        x, y_seg, y_cls = batch  # y_seg: segmentation/reconstruction target, y_cls: class index
+        x, y_cls = batch  #  y_cls: class index
         x_hat, logits = self.forward(x)
-        loss_recon = F.mse_loss(x_hat, y_seg)
+        loss_recon = F.mse_loss(x_hat, x)
         loss_cls = F.cross_entropy(logits, y_cls)
         loss = self.ae_w * loss_recon + self.cl_w * loss_cls
         acc = (logits.argmax(dim=1) == y_cls).float().mean()
-        self.log("val_loss", loss)
-        self.log("val_acc", acc)
+        self.log("val/loss", loss)
+        self.log("val/acc", acc)
         return loss
 
     def test_step(self, batch, batch_idx):
-        x, y_seg, y_cls = batch  # y_seg: segmentation/reconstruction target, y_cls: class index
+        x, y_cls = batch  # y_cls: class index
         x_hat, logits = self.forward(x)
-        loss_recon = F.mse_loss(x_hat, y_seg)
+        loss_recon = F.mse_loss(x_hat, x)
         loss_cls = F.cross_entropy(logits, y_cls)
         loss = self.ae_w * loss_recon + self.cl_w * loss_cls
         acc = (logits.argmax(dim=1) == y_cls).float().mean()
-        self.log("test_loss", loss)
-        self.log("test_acc", acc)
+        self.log("test/loss", loss)
+        self.log("test/acc", acc)
         return loss
 
     def configure_optimizers(self):

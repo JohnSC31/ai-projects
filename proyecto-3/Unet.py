@@ -68,15 +68,22 @@ class UNet(pl.LightningModule):
     def training_step(self, batch, batch_idx):
         x, y = batch
         x_hat, b = self.forward(x)
-        loss = F.mse_loss(x_hat, y)
-        self.log("train_loss", loss)
+        loss = F.mse_loss(x_hat, x)
+        self.log("train/loss", loss, on_epoch=True, on_step=False)
+        return loss
+
+    def validation_step(self, batch, batch_idx):
+        x, y = batch
+        x_hat, b = self.forward(x)
+        loss = F.mse_loss(x_hat, x)
+        self.log("val/loss", loss, on_epoch=True, on_step=False)
         return loss
 
     def test_step(self, batch, batch_idx):
         x, y = batch
         x_hat, b = self.forward(x)
-        loss = F.mse_loss(x_hat, y)
-        self.log("test_loss", loss)
+        loss = F.mse_loss(x_hat, x)
+        self.log("test/loss", loss, on_epoch=True, on_step=False)
         return loss
 
     def configure_optimizers(self):

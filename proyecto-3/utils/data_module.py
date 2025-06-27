@@ -44,7 +44,7 @@ def ButterflyDatasetFactory(split_dir, transform=None, labeled_percentage=0.3):
                         labeled_samples.append((img_path, class_to_idx[species]))
                         num_labeled_samples += 1
                     else:
-                        unlabeled_samples.append((img_path, None))
+                        unlabeled_samples.append((img_path, class_to_idx[species]))
         
         return ButterflyDataset(labeled_samples, transform, classes), ButterflyDataset(unlabeled_samples, transform, classes), classes
         
@@ -60,15 +60,15 @@ class ButterflyDataModule(pl.LightningDataModule):
         self.labeled_percentage = labeled_percentage
 
         self.train_transform = transforms.Compose([
-            transforms.Resize(image_size),
-            transforms.RandomHorizontalFlip(),
-            transforms.RandomRotation(10),
+            # transforms.Resize(image_size),
+            # transforms.RandomHorizontalFlip(),
+            # transforms.RandomRotation(10),
             transforms.ToTensor(),
             transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
         ])
         
         self.val_test_transform = transforms.Compose([
-            transforms.Resize(image_size),
+            # transforms.Resize(image_size),
             transforms.ToTensor(),
             transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
         ])
